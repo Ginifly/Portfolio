@@ -1,0 +1,242 @@
+html
+{
+    background-image: url(../img/responsiveP.png);
+}
+
+/* interchangeage des photos et formatage*/
+
+
+.ssprincipal
+{
+    display:none;
+}
+.sstab
+{
+    display: none;
+}
+.ssannexe
+{
+    display: block;
+    width: 17vw;
+    border: 1px solid black;
+}
+.screenshots
+{
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*Ajustement du header*/
+
+header
+{
+    margin-bottom: 0;
+    background-image: url(../img/d.png);
+    border-bottom: 0.5vw solid white;
+}
+#identite, #coordonnees
+{
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+
+/* Mise en forme  du menu*/
+
+
+#structure
+{  
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;   
+}
+nav
+{
+    display: -webkit-flex;     
+    display: -moz-flex;     
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: rgba(83,134,1,0.35);
+    background-image: url(../img/nav.png);
+    background-repeat: no-repeat;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-flex: 3;
+    -moz-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    -ms-align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+ul
+{   
+    display: -webkit-flex;     
+    display: -moz-flex;     
+    display: -ms-flex;
+    display: flex;  
+    -webkit-flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 1.7vw;
+    padding: 0;
+    margin-right: 1vw;
+}
+li
+{
+    display: -webkit-flex;     
+    display: -moz-flex;     
+    display: -ms-flex;
+    display: flex; 
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;    
+    align-items: center;
+}
+nav hr
+{
+    width: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+nav div
+{
+    margin: 1vw;   
+    border: darkseagreen 1px solid;
+    box-shadow: darkseagreen -3px -3px 33px inset;
+}
+.acheves
+{
+    margin-top: 4vw;
+}
+.titres
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.ancres
+{
+    width: 1.7vw;
+    height: 2vw;
+    float: right;
+    margin-left: 1vw;
+}
+nav h5
+{
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw 0 1vw 0;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 3vw;
+}
+
+
+
+/*Ajustement du corps des article*/
+
+
+#projets
+{
+    margin-top: 3vw;
+    
+}
+article
+{
+    width: 65vw;
+}
+#responsive
+{
+    -webkit-flex: 0;
+    -moz-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+    width: 10vw;
+    -webkit-align-self: flex-start;
+    -moz-align-self: flex-start;
+    -ms-align-self: flex-start;
+    align-self: flex-start;
+    margin-left: 50vw;
+    position: absolute;
+    left: 50vw;        
+}
+
+
+/* ajustements esthetiques*/
+
+
+h4
+{
+    margin-bottom: 1vw;
+}
+h3
+{
+    width: 90%;
+    margin-bottom: 2vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+
+
+/*ajustements du footer*/
+
+.logo
+{
+    margin-bottom: 1vw;
+    width: 2vw;
+    height: 2vw;
+}
+footer h5
+{
+    margin: 1vw 0 0.5vw 0;
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+footer
+{
+    background-image: url(../img/d.png);
+    background-size: contain;
+    border-top: 0.5vw solid white;
+    margin-top: 0vw;
+}
+
+
+
+
+
+
+#responsive
+{
+    height: 70px;
+    background-image: url(../img/responsiveP.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}

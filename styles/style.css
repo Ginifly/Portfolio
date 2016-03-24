@@ -1,0 +1,295 @@
+/*reglages de bases*/
+
+html
+{
+    height: 100%;
+}
+body
+{
+    margin:0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    background-color: rgba(17,90,108,1);
+    background-image: url(../img/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header, footer
+{
+     background-color: #87508F;
+}
+
+/*mise en forme du header*/
+
+header
+{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    color:white;
+    text-shadow: 0.1vw 0.1vw darkgrey;
+    border-bottom: white 1vw solid;
+    margin-bottom: 2vw;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+#identite,#coordonnees
+{
+    text-align: center;
+    margin: 8vw;
+    display: block;
+}
+#identite
+{
+   -webkit-flex: 3;
+   -moz-flex: 3;
+   -ms-flex: 3;
+   flex: 3;
+}
+header h1
+{
+    margin: 0;
+    font-size: 4.5vw;
+}
+header h2
+{
+    margin: 0;
+    color: #cc85c4;
+    font-size: 3.5vw;
+}
+header p
+{
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+/*disparition des fioritures du header*/
+
+.hr
+{
+    display: none;
+}
+
+/*disparition du nav en mobile first*/
+
+nav
+{
+    background-color: #c0e280;
+    display: none;
+}
+
+
+/*masquer les photos annexes*/
+
+.ssannexe
+{
+    display:none;
+}
+
+/* traitements des articles*/
+
+#projets
+{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+article
+{
+    background-color: #fff3bf;
+    border: white 1vw solid;
+    margin: 5vw;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+h3
+{
+    text-decoration: underline;
+    margin: 5vw;
+    -webkit-align-self: flex-start;
+    -moz-align-self: flex-start;
+    -ms-align-self: flex-start;
+    align-self: flex-start; 
+    width: 100%;
+    font-size: 4.2vw;
+}
+h4
+{
+    text-align: center;
+    font-size: 2.8vw;
+}
+article p
+{
+    margin: 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+div br
+{
+    display:none;
+}
+.etiquettes
+{
+    font-size: 1.8vw;
+    font-style: italic;
+}#resume
+{
+    width: 90%;
+}
+
+/* traitement images des articles*/
+
+.screenshots
+{
+    width:90%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    margin: 2vw;
+}
+.ssprincipal
+{
+   width: 70vw;
+    border: 1vw solid grey;
+    margin-bottom: 2vw;
+}
+article a
+{
+    color: darkred;
+    font-weight: bold;  
+    -webkit-align-self: flex-end;
+    -moz-align-self: flex-end;
+    -ms-align-self: flex-end;
+    align-self: flex-end;
+}
+.up
+{
+    width: 5vw;
+    margin: 0 1vw 1vw 0;
+}
+
+
+/*traitement du footer*/
+
+
+footer
+{
+    position:relative;
+    bottom:0;
+    left:0;
+    right: 0;
+    border-top: white 1vw solid;
+    margin-top: 10vw;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -mozt-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-align: center;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+}
+footer section
+{
+    width: 25%;
+}footer h5
+{
+    color: white;
+    font-size: 3vw;
+    font-weight: lighter;
+    margin: 2vw 0 1vw 0;
+    text-shadow: 0.1vw 0.1vw darkgrey;
+}
+.logo
+{
+    width: 4vw;
+    height: 4vw;
+    margin: 0 0 3vw 0;
+}
+img
+{
+    display:block;
+}
+footer section a
+{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+}
+
+
+/*reglage portrait/landscape*/
+
+/*#responsive
+    {
+        height: 20vw;
+        background-image: url(../img/responsiveM.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+}*/
+@media only screen and (orientation : portrait)
+{
+    #responsive
+    {
+        height: 20vw;
+        background-image: url(../img/responsiveM.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 5vw;
+    }
+}
+@media only screen and (orientation : landscape)
+{
+    #responsive
+    {
+        height: 20vw;
+        background-image: url(../img/responsiveMH.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 5vw;
+    } 
+}

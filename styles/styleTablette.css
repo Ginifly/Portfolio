@@ -1,0 +1,176 @@
+/* interchangeage des photos et formatage*/
+
+
+.ssprincipal
+{
+    display:none;
+}
+.sstab
+{
+    display: block;
+}
+.screenshots
+{
+    justify-content: space-around;
+}
+
+/*Ajustement du header*/
+
+header
+{
+    margin-bottom: 0;
+    background-image: url(../img/d.png);
+    border-bottom: 0.5vw solid white;
+}
+#identite, #coordonnees
+{
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+
+/* Mise en forme */
+
+
+nav hr, #navsup
+{
+    display: none;
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgb(76,175,80);
+    background-image: url(../img/navT.png);
+    background-size: contain;
+}
+nav div
+{
+    width: 50%;
+}
+.acheves
+{
+    flex:3;
+}
+.enCours
+{
+    flex: 2;
+}
+ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 1vw;
+    padding: 0;
+}
+li
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.titres
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2vw;
+    font-size: 1.2vw;
+}
+.ancres
+{
+    width: 2vw;
+    height: 2vw;
+    float: right;
+    margin-left: 1vw;
+}
+nav h5
+{
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw 0 1vw 0;
+    text-align: center;
+}
+
+
+/* ajustements esthetiques*/
+
+
+h4
+{
+    margin-bottom: 1vw;
+}
+h3
+{
+    width: 90%;
+    margin-bottom: 2vw;
+    margin-top: 3vw;
+}
+
+
+/*ajustements du footer*/
+
+.logo
+{
+    margin-bottom: 1vw;
+    width: 2vw;
+    height: 2vw;
+}
+footer h5
+{
+    margin: 1vw 0 0.5vw 0;
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+footer
+{
+    margin-top: 3vw;
+    background-image: url(../img/d.png);
+    background-size: contain;
+    border-top: 0.5vw solid white;
+}
+
+
+
+
+/*#responsive
+    {
+        height: 70px;
+        background-image: url(../img/responsiveT.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 5px;
+    } 
+*/
+@media only screen and (orientation : portrait)
+{
+       #responsive
+    {
+        height: 70px;
+        background-image: url(../img/responsiveT.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 5px;
+    } 
+}
+@media only screen and (orientation : landscape)
+{
+       #responsive
+    {
+        height: 70px;
+        background-image: url(../img/responsiveTH.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 5px;
+    } 
+}
